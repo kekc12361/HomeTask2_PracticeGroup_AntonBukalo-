@@ -70,7 +70,7 @@ function checkNeighbours(x, y, elements){
 }
 
 function leftNeighbour(x,y) {
-    if (x>=0) {
+    if (x>0) {
         return x - 1 + (y) * 4;
     }
 }
