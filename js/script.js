@@ -38,7 +38,7 @@ function onClick(event){
     let y = $el.parentElement.rowIndex;
 
     let pos = checkNeighbours(x,y,$elements);
-    if (pos){
+    if (pos!==false){ ///i don`t write if (pos) because pos can be 0
         $elements[pos].innerHTML = event.target.innerHTML;
         event.target.innerHTML = "";
     }
@@ -70,7 +70,7 @@ function checkNeighbours(x, y, elements){
 }
 
 function leftNeighbour(x,y) {
-    if (x>0) {
+    if (x>=0) {
         return x - 1 + (y) * 4;
     }
 }
