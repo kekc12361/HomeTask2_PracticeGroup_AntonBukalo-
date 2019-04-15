@@ -1,7 +1,8 @@
 window.addEventListener("load",game);
 document.getElementById("reset").addEventListener("click", generateBoard)
 function game(){
-  generateBoard();
+    let matrix = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,""];
+    createField(matrix);
 }
 
 function generateBoard() {
@@ -22,7 +23,6 @@ function createField(matrix){
             let $el = document.createElement("td");
             $el.innerHTML = matrix[i*4+j];
             $el.addEventListener("click",onClick);
-            // ($elements);
             row.appendChild($el);
             $elements.push($el);
         }
