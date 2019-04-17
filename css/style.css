@@ -1,4 +1,9 @@
 body{
+
+    width:1200px;
+    height:500px;
+    border:2px solid black;
+
     display: flex;
     align-items: center;
     margin:0 auto;
@@ -18,8 +23,8 @@ table{
 td{
     font-size: 18px;
     text-align: center;
-    height: 60px;
-    width:60px;
+    height: 90px;
+    width:90px;
     background: #DDDDDD;
 }
 td:hover{
@@ -30,7 +35,7 @@ td:hover{
     background: #DDDDDD;
     margin-top: 15px;
     height: 60px;
-    width: 263px;
+    width: 390px;
     margin-left: 4px;
     border: none;
 }
