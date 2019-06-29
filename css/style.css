@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: center;
+    margin:0 auto;
+    padding:25px;
+    flex-direction: column;
+}
+
+#wrapper{
+    padding: 10px;
+    border:1px solid grey;
+}
+
+table{
+    border-spacing:5px;
+}
+
+td{
+    font-size: 18px;
+    text-align: center;
+    height: 60px;
+    width:60px;
+    background: #DDDDDD;
+}
+td:hover{
+    background: #888888;
+    cursor:pointer;
+}
+#reset{
+    background: #DDDDDD;
+    margin-top: 15px;
+    height: 60px;
+    width: 263px;
+    margin-left: 4px;
+    border: none;
+}
+#reset:hover{
+    background: #888888;
+    cursor:pointer;
+}
